@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F14485715B5E9C400AADCD7 /* 1_life.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F14485615B5E9C400AADCD7 /* 1_life.png */; };
+		3F14486015B5F3E600AADCD7 /* game over.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F14485F15B5F3E600AADCD7 /* game over.png */; };
+		3F7CEE0C15B59D1F00D7D169 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7CEE0B15B59D1F00D7D169 /* UIKit.framework */; };
+		3F7CEE0E15B59D1F00D7D169 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7CEE0D15B59D1F00D7D169 /* Foundation.framework */; };
+		3F7CEE1015B59D1F00D7D169 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7CEE0F15B59D1F00D7D169 /* CoreGraphics.framework */; };
+		3F7CEE1615B59D1F00D7D169 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CEE1415B59D1F00D7D169 /* InfoPlist.strings */; };
+		3F7CEE1815B59D1F00D7D169 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7CEE1715B59D1F00D7D169 /* main.m */; };
+		3F7CEE1C15B59D1F00D7D169 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7CEE1B15B59D1F00D7D169 /* AppDelegate.m */; };
+		3F7CEE1F15B59D1F00D7D169 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CEE1D15B59D1F00D7D169 /* MainStoryboard.storyboard */; };
+		3F7CEE2215B59D1F00D7D169 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7CEE2115B59D1F00D7D169 /* ViewController.m */; };
+		3F7CEE2A15B59D1F00D7D169 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7CEE2915B59D1F00D7D169 /* SenTestingKit.framework */; };
+		3F7CEE2B15B59D1F00D7D169 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7CEE0B15B59D1F00D7D169 /* UIKit.framework */; };
+		3F7CEE2C15B59D1F00D7D169 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7CEE0D15B59D1F00D7D169 /* Foundation.framework */; };
+		3F7CEE3415B59D1F00D7D169 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CEE3215B59D1F00D7D169 /* InfoPlist.strings */; };
+		3F7CEE3715B59D1F00D7D169 /* fireballGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7CEE3615B59D1F00D7D169 /* fireballGameTests.m */; };
+		3F7CEE4E15B59D7A00D7D169 /* 2lives.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CEE4115B59D7A00D7D169 /* 2lives.png */; };
+		3F7CEE4F15B59D7A00D7D169 /* 3lives.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CEE4215B59D7A00D7D169 /* 3lives.png */; };
+		3F7CEE5015B59D7A00D7D169 /* arrow_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CEE4315B59D7A00D7D169 /* arrow_left.png */; };
+		3F7CEE5115B59D7A00D7D169 /* arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CEE4415B59D7A00D7D169 /* arrow_right.png */; };
+		3F7CEE5415B59D7A00D7D169 /* fireball.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CEE4715B59D7A00D7D169 /* fireball.png */; };
+		3F7CEE5515B59D7A00D7D169 /* firewall.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CEE4815B59D7A00D7D169 /* firewall.png */; };
+		3F7CEE5715B59D7A00D7D169 /* icicle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CEE4A15B59D7A00D7D169 /* icicle.png */; };
+		3F7CEE6615B5A1BC00D7D169 /* gamename.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CEE6515B5A1BC00D7D169 /* gamename.png */; };
+		3F7CEE6F15B5A65C00D7D169 /* gameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7CEE6E15B5A65C00D7D169 /* gameViewController.m */; };
+		3F7CEE7E15B5E2B200D7D169 /* endgame.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7CEE7D15B5E2B200D7D169 /* endgame.png */; };
+		F501CBF3167588B600B9B30D /* Icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = F501CBF2167588B600B9B30D /* Icon_57x57.png */; };
+		F501CBFC16758AAD00B9B30D /* Icon_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = F501CBFB16758AAD00B9B30D /* Icon_114x114.png */; };
+		F501CBFE16758D9E00B9B30D /* Icon_512x512.png in Resources */ = {isa = PBXBuildFile; fileRef = F501CBFD16758D9E00B9B30D /* Icon_512x512.png */; };
+		F501CC0216758E7B00B9B30D /* Icon_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = F501CC0116758E7B00B9B30D /* Icon_640x960.png */; };
+		F501CC0416758E8A00B9B30D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F501CC0316758E8A00B9B30D /* Default@2x.png */; };
+		F501CC0616758ED200B9B30D /* Icon_640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = F501CC0516758ED200B9B30D /* Icon_640x1136.png */; };
+		F501CC0816758EED00B9B30D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F501CC0716758EED00B9B30D /* Default-568h@2x.png */; };
+		F5136FFA16B20E95005AE949 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5136FF916B20E95005AE949 /* Data.plist */; };
+		F51EF27715BF07F400A40D3D /* playagain2.png in Resources */ = {isa = PBXBuildFile; fileRef = F51EF27615BF07F400A40D3D /* playagain2.png */; };
+		F51EF27915BF07FF00A40D3D /* yes.png in Resources */ = {isa = PBXBuildFile; fileRef = F51EF27815BF07FF00A40D3D /* yes.png */; };
+		F51EF27B15BF080A00A40D3D /* no.png in Resources */ = {isa = PBXBuildFile; fileRef = F51EF27A15BF080A00A40D3D /* no.png */; };
+		F51EF82016B7641B005585A0 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51EF81F16B7641B005585A0 /* iAd.framework */; };
+		F547331C16F3EDED00317730 /* ice_balls.png in Resources */ = {isa = PBXBuildFile; fileRef = F547331B16F3EDED00317730 /* ice_balls.png */; };
+		F547331E16F3F0F300317730 /* ice_lives3.png in Resources */ = {isa = PBXBuildFile; fileRef = F547331D16F3F0F300317730 /* ice_lives3.png */; };
+		F547332016F3F0FF00317730 /* ice_lives2.png in Resources */ = {isa = PBXBuildFile; fileRef = F547331F16F3F0FF00317730 /* ice_lives2.png */; };
+		F547332216F3F55C00317730 /* game-over-2.png in Resources */ = {isa = PBXBuildFile; fileRef = F547332116F3F55C00317730 /* game-over-2.png */; };
+		F55C766B1636509F0003D8E6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F55C766816364F310003D8E6 /* Default.png */; };
+		F560D77E16263DEB00E95FD2 /* Devil_2.png in Resources */ = {isa = PBXBuildFile; fileRef = F560D77D16263DEB00E95FD2 /* Devil_2.png */; };
+		F57FB86815BE472B00ED43E0 /* start2.png in Resources */ = {isa = PBXBuildFile; fileRef = F57FB86715BE472B00ED43E0 /* start2.png */; };
+		F57FB86C15BE475300ED43E0 /* quit.png in Resources */ = {isa = PBXBuildFile; fileRef = F57FB86B15BE475300ED43E0 /* quit.png */; };
+		F590A5F015F2FBDC003DFBF6 /* demonicor_evil-face.png in Resources */ = {isa = PBXBuildFile; fileRef = F590A5EF15F2FBDC003DFBF6 /* demonicor_evil-face.png */; };
+		F590A5F815F2FFB2003DFBF6 /* bounce_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F590A5F715F2FFB2003DFBF6 /* bounce_sound.mp3 */; };
+		F590A5FE15F30502003DFBF6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F590A5FD15F30502003DFBF6 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F7CEE2D15B59D1F00D7D169 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7CEDFE15B59D1F00D7D169 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F7CEE0615B59D1F00D7D169;
+			remoteInfo = fireballGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F14485615B5E9C400AADCD7 /* 1_life.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1_life.png; sourceTree = "<group>"; };
+		3F14485F15B5F3E600AADCD7 /* game over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "game over.png"; path = "fireballGameTests/game over.png"; sourceTree = SOURCE_ROOT; };
+		3F7CEE0715B59D1F00D7D169 /* fireballGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fireballGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7CEE0B15B59D1F00D7D169 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F7CEE0D15B59D1F00D7D169 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F7CEE0F15B59D1F00D7D169 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F7CEE1315B59D1F00D7D169 /* fireballGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fireballGame-Info.plist"; sourceTree = "<group>"; };
+		3F7CEE1515B59D1F00D7D169 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F7CEE1715B59D1F00D7D169 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F7CEE1915B59D1F00D7D169 /* fireballGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fireballGame-Prefix.pch"; sourceTree = "<group>"; };
+		3F7CEE1A15B59D1F00D7D169 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F7CEE1B15B59D1F00D7D169 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F7CEE1E15B59D1F00D7D169 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3F7CEE2015B59D1F00D7D169 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F7CEE2115B59D1F00D7D169 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F7CEE2815B59D1F00D7D169 /* fireballGameTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fireballGameTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7CEE2915B59D1F00D7D169 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3F7CEE3115B59D1F00D7D169 /* fireballGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fireballGameTests-Info.plist"; sourceTree = "<group>"; };
+		3F7CEE3315B59D1F00D7D169 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F7CEE3515B59D1F00D7D169 /* fireballGameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fireballGameTests.h; sourceTree = "<group>"; };
+		3F7CEE3615B59D1F00D7D169 /* fireballGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fireballGameTests.m; sourceTree = "<group>"; };
+		3F7CEE4115B59D7A00D7D169 /* 2lives.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2lives.png; sourceTree = "<group>"; };
+		3F7CEE4215B59D7A00D7D169 /* 3lives.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3lives.png; sourceTree = "<group>"; };
+		3F7CEE4315B59D7A00D7D169 /* arrow_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_left.png; sourceTree = "<group>"; };
+		3F7CEE4415B59D7A00D7D169 /* arrow_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_right.png; sourceTree = "<group>"; };
+		3F7CEE4715B59D7A00D7D169 /* fireball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireball.png; sourceTree = "<group>"; };
+		3F7CEE4815B59D7A00D7D169 /* firewall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firewall.png; sourceTree = "<group>"; };
+		3F7CEE4A15B59D7A00D7D169 /* icicle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icicle.png; sourceTree = "<group>"; };
+		3F7CEE6515B5A1BC00D7D169 /* gamename.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gamename.png; sourceTree = "<group>"; };
+		3F7CEE6D15B5A65C00D7D169 /* gameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gameViewController.h; sourceTree = "<group>"; };
+		3F7CEE6E15B5A65C00D7D169 /* gameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gameViewController.m; sourceTree = "<group>"; };
+		3F7CEE7D15B5E2B200D7D169 /* endgame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = endgame.png; sourceTree = "<group>"; };
+		F501CBF2167588B600B9B30D /* Icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon_57x57.png; path = "../../game pics/Icon_57x57.png"; sourceTree = "<group>"; };
+		F501CBFB16758AAD00B9B30D /* Icon_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_114x114.png; sourceTree = "<group>"; };
+		F501CBFD16758D9E00B9B30D /* Icon_512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon_512x512.png; path = "../../game pics/Icon_512x512.png"; sourceTree = "<group>"; };
+		F501CC0116758E7B00B9B30D /* Icon_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon_640x960.png; path = "../../game pics/Icon_640x960.png"; sourceTree = "<group>"; };
+		F501CC0316758E8A00B9B30D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F501CC0516758ED200B9B30D /* Icon_640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon_640x1136.png; path = "../../game pics/Icon_640x1136.png"; sourceTree = "<group>"; };
+		F501CC0716758EED00B9B30D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F5136FF916B20E95005AE949 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		F51EF27615BF07F400A40D3D /* playagain2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playagain2.png; path = "../../../game pics/playagain2.png"; sourceTree = "<group>"; };
+		F51EF27815BF07FF00A40D3D /* yes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yes.png; path = "../../../game pics/yes.png"; sourceTree = "<group>"; };
+		F51EF27A15BF080A00A40D3D /* no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = no.png; path = "../../../game pics/no.png"; sourceTree = "<group>"; };
+		F51EF81F16B7641B005585A0 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		F547331B16F3EDED00317730 /* ice_balls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ice_balls.png; path = "../../../game pics/ice_balls.png"; sourceTree = "<group>"; };
+		F547331D16F3F0F300317730 /* ice_lives3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ice_lives3.png; path = "../../../game pics/ice_lives3.png"; sourceTree = "<group>"; };
+		F547331F16F3F0FF00317730 /* ice_lives2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ice_lives2.png; path = "../../../game pics/ice_lives2.png"; sourceTree = "<group>"; };
+		F547332116F3F55C00317730 /* game-over-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "game-over-2.png"; path = "../../../game pics/game-over-2.png"; sourceTree = "<group>"; };
+		F55C766816364F310003D8E6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "../../game pics/Default.png"; sourceTree = "<group>"; };
+		F560D77D16263DEB00E95FD2 /* Devil_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Devil_2.png; path = "../../../game pics/Devil_2.png"; sourceTree = "<group>"; };
+		F57FB86715BE472B00ED43E0 /* start2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = start2.png; path = "../../../game pics/start2.png"; sourceTree = "<group>"; };
+		F57FB86B15BE475300ED43E0 /* quit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quit.png; path = "../../../game pics/quit.png"; sourceTree = "<group>"; };
+		F590A5EF15F2FBDC003DFBF6 /* demonicor_evil-face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "demonicor_evil-face.png"; path = "../../../game pics/demonicor_evil-face.png"; sourceTree = "<group>"; };
+		F590A5F715F2FFB2003DFBF6 /* bounce_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bounce_sound.mp3; path = "../../../game sounds/bounce_sound.mp3"; sourceTree = "<group>"; };
+		F590A5FD15F30502003DFBF6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F7CEE0415B59D1F00D7D169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51EF82016B7641B005585A0 /* iAd.framework in Frameworks */,
+				3F7CEE0C15B59D1F00D7D169 /* UIKit.framework in Frameworks */,
+				3F7CEE0E15B59D1F00D7D169 /* Foundation.framework in Frameworks */,
+				3F7CEE1015B59D1F00D7D169 /* CoreGraphics.framework in Frameworks */,
+				F590A5FE15F30502003DFBF6 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7CEE2415B59D1F00D7D169 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7CEE2A15B59D1F00D7D169 /* SenTestingKit.framework in Frameworks */,
+				3F7CEE2B15B59D1F00D7D169 /* UIKit.framework in Frameworks */,
+				3F7CEE2C15B59D1F00D7D169 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7CEDFC15B59D1F00D7D169 = {
+			isa = PBXGroup;
+			children = (
+				F51EF81F16B7641B005585A0 /* iAd.framework */,
+				F501CC0716758EED00B9B30D /* Default-568h@2x.png */,
+				F501CC0316758E8A00B9B30D /* Default@2x.png */,
+				F501CC0516758ED200B9B30D /* Icon_640x1136.png */,
+				F501CC0116758E7B00B9B30D /* Icon_640x960.png */,
+				F501CBFB16758AAD00B9B30D /* Icon_114x114.png */,
+				F501CBF2167588B600B9B30D /* Icon_57x57.png */,
+				F501CBFD16758D9E00B9B30D /* Icon_512x512.png */,
+				F55C766816364F310003D8E6 /* Default.png */,
+				3F7CEE1115B59D1F00D7D169 /* fireballGame */,
+				3F7CEE0A15B59D1F00D7D169 /* Frameworks */,
+				3F7CEE0815B59D1F00D7D169 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F7CEE0815B59D1F00D7D169 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F7CEE0715B59D1F00D7D169 /* fireballGame.app */,
+				3F7CEE2815B59D1F00D7D169 /* fireballGameTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F7CEE0A15B59D1F00D7D169 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F590A5FD15F30502003DFBF6 /* AVFoundation.framework */,
+				3F7CEE0B15B59D1F00D7D169 /* UIKit.framework */,
+				3F7CEE0D15B59D1F00D7D169 /* Foundation.framework */,
+				3F7CEE0F15B59D1F00D7D169 /* CoreGraphics.framework */,
+				3F7CEE2915B59D1F00D7D169 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F7CEE1115B59D1F00D7D169 /* fireballGame */ = {
+			isa = PBXGroup;
+			children = (
+				3F7CEE1A15B59D1F00D7D169 /* AppDelegate.h */,
+				3F7CEE1B15B59D1F00D7D169 /* AppDelegate.m */,
+				3F7CEE1D15B59D1F00D7D169 /* MainStoryboard.storyboard */,
+				3F7CEE2015B59D1F00D7D169 /* ViewController.h */,
+				3F7CEE2115B59D1F00D7D169 /* ViewController.m */,
+				3F7CEE6D15B5A65C00D7D169 /* gameViewController.h */,
+				3F7CEE6E15B5A65C00D7D169 /* gameViewController.m */,
+				3F7CEE1215B59D1F00D7D169 /* Supporting Files */,
+			);
+			path = fireballGame;
+			sourceTree = "<group>";
+		};
+		3F7CEE1215B59D1F00D7D169 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F547332116F3F55C00317730 /* game-over-2.png */,
+				F547331D16F3F0F300317730 /* ice_lives3.png */,
+				F547331F16F3F0FF00317730 /* ice_lives2.png */,
+				F547331B16F3EDED00317730 /* ice_balls.png */,
+				F560D77D16263DEB00E95FD2 /* Devil_2.png */,
+				F590A5F715F2FFB2003DFBF6 /* bounce_sound.mp3 */,
+				F590A5EF15F2FBDC003DFBF6 /* demonicor_evil-face.png */,
+				F51EF27A15BF080A00A40D3D /* no.png */,
+				F51EF27815BF07FF00A40D3D /* yes.png */,
+				F51EF27615BF07F400A40D3D /* playagain2.png */,
+				F57FB86B15BE475300ED43E0 /* quit.png */,
+				F57FB86715BE472B00ED43E0 /* start2.png */,
+				3F14485F15B5F3E600AADCD7 /* game over.png */,
+				3F7CEE2F15B59D1F00D7D169 /* fireballGameTests */,
+				3F14485615B5E9C400AADCD7 /* 1_life.png */,
+				3F7CEE7D15B5E2B200D7D169 /* endgame.png */,
+				3F7CEE6515B5A1BC00D7D169 /* gamename.png */,
+				3F7CEE4115B59D7A00D7D169 /* 2lives.png */,
+				3F7CEE4215B59D7A00D7D169 /* 3lives.png */,
+				3F7CEE4315B59D7A00D7D169 /* arrow_left.png */,
+				3F7CEE4415B59D7A00D7D169 /* arrow_right.png */,
+				3F7CEE4715B59D7A00D7D169 /* fireball.png */,
+				3F7CEE4815B59D7A00D7D169 /* firewall.png */,
+				3F7CEE4A15B59D7A00D7D169 /* icicle.png */,
+				3F7CEE1315B59D1F00D7D169 /* fireballGame-Info.plist */,
+				3F7CEE1415B59D1F00D7D169 /* InfoPlist.strings */,
+				3F7CEE1715B59D1F00D7D169 /* main.m */,
+				3F7CEE1915B59D1F00D7D169 /* fireballGame-Prefix.pch */,
+				F5136FF916B20E95005AE949 /* Data.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F7CEE2F15B59D1F00D7D169 /* fireballGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F7CEE3515B59D1F00D7D169 /* fireballGameTests.h */,
+				3F7CEE3615B59D1F00D7D169 /* fireballGameTests.m */,
+				3F7CEE3015B59D1F00D7D169 /* Supporting Files */,
+			);
+			path = fireballGameTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		3F7CEE3015B59D1F00D7D169 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F7CEE3115B59D1F00D7D169 /* fireballGameTests-Info.plist */,
+				3F7CEE3215B59D1F00D7D169 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F7CEE0615B59D1F00D7D169 /* fireballGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7CEE3A15B59D1F00D7D169 /* Build configuration list for PBXNativeTarget "fireballGame" */;
+			buildPhases = (
+				3F7CEE0315B59D1F00D7D169 /* Sources */,
+				3F7CEE0415B59D1F00D7D169 /* Frameworks */,
+				3F7CEE0515B59D1F00D7D169 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fireballGame;
+			productName = fireballGame;
+			productReference = 3F7CEE0715B59D1F00D7D169 /* fireballGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F7CEE2715B59D1F00D7D169 /* fireballGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7CEE3D15B59D1F00D7D169 /* Build configuration list for PBXNativeTarget "fireballGameTests" */;
+			buildPhases = (
+				3F7CEE2315B59D1F00D7D169 /* Sources */,
+				3F7CEE2415B59D1F00D7D169 /* Frameworks */,
+				3F7CEE2515B59D1F00D7D169 /* Resources */,
+				3F7CEE2615B59D1F00D7D169 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F7CEE2E15B59D1F00D7D169 /* PBXTargetDependency */,
+			);
+			name = fireballGameTests;
+			productName = fireballGameTests;
+			productReference = 3F7CEE2815B59D1F00D7D169 /* fireballGameTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F7CEDFE15B59D1F00D7D169 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 3F7CEE0115B59D1F00D7D169 /* Build configuration list for PBXProject "Inferno Pong" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F7CEDFC15B59D1F00D7D169;
+			productRefGroup = 3F7CEE0815B59D1F00D7D169 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F7CEE0615B59D1F00D7D169 /* fireballGame */,
+				3F7CEE2715B59D1F00D7D169 /* fireballGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F7CEE0515B59D1F00D7D169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7CEE1615B59D1F00D7D169 /* InfoPlist.strings in Resources */,
+				3F7CEE1F15B59D1F00D7D169 /* MainStoryboard.storyboard in Resources */,
+				3F7CEE4E15B59D7A00D7D169 /* 2lives.png in Resources */,
+				3F7CEE4F15B59D7A00D7D169 /* 3lives.png in Resources */,
+				3F7CEE5015B59D7A00D7D169 /* arrow_left.png in Resources */,
+				3F7CEE5115B59D7A00D7D169 /* arrow_right.png in Resources */,
+				3F7CEE5415B59D7A00D7D169 /* fireball.png in Resources */,
+				3F7CEE5515B59D7A00D7D169 /* firewall.png in Resources */,
+				3F7CEE5715B59D7A00D7D169 /* icicle.png in Resources */,
+				3F7CEE6615B5A1BC00D7D169 /* gamename.png in Resources */,
+				3F7CEE7E15B5E2B200D7D169 /* endgame.png in Resources */,
+				3F14485715B5E9C400AADCD7 /* 1_life.png in Resources */,
+				3F14486015B5F3E600AADCD7 /* game over.png in Resources */,
+				F57FB86815BE472B00ED43E0 /* start2.png in Resources */,
+				F57FB86C15BE475300ED43E0 /* quit.png in Resources */,
+				F51EF27715BF07F400A40D3D /* playagain2.png in Resources */,
+				F51EF27915BF07FF00A40D3D /* yes.png in Resources */,
+				F51EF27B15BF080A00A40D3D /* no.png in Resources */,
+				F590A5F015F2FBDC003DFBF6 /* demonicor_evil-face.png in Resources */,
+				F590A5F815F2FFB2003DFBF6 /* bounce_sound.mp3 in Resources */,
+				F560D77E16263DEB00E95FD2 /* Devil_2.png in Resources */,
+				F55C766B1636509F0003D8E6 /* Default.png in Resources */,
+				F501CBF3167588B600B9B30D /* Icon_57x57.png in Resources */,
+				F501CBFC16758AAD00B9B30D /* Icon_114x114.png in Resources */,
+				F501CBFE16758D9E00B9B30D /* Icon_512x512.png in Resources */,
+				F501CC0216758E7B00B9B30D /* Icon_640x960.png in Resources */,
+				F501CC0416758E8A00B9B30D /* Default@2x.png in Resources */,
+				F501CC0616758ED200B9B30D /* Icon_640x1136.png in Resources */,
+				F501CC0816758EED00B9B30D /* Default-568h@2x.png in Resources */,
+				F5136FFA16B20E95005AE949 /* Data.plist in Resources */,
+				F547331C16F3EDED00317730 /* ice_balls.png in Resources */,
+				F547331E16F3F0F300317730 /* ice_lives3.png in Resources */,
+				F547332016F3F0FF00317730 /* ice_lives2.png in Resources */,
+				F547332216F3F55C00317730 /* game-over-2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7CEE2515B59D1F00D7D169 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7CEE3415B59D1F00D7D169 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F7CEE2615B59D1F00D7D169 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7CEE0315B59D1F00D7D169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7CEE1815B59D1F00D7D169 /* main.m in Sources */,
+				3F7CEE1C15B59D1F00D7D169 /* AppDelegate.m in Sources */,
+				3F7CEE2215B59D1F00D7D169 /* ViewController.m in Sources */,
+				3F7CEE6F15B5A65C00D7D169 /* gameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7CEE2315B59D1F00D7D169 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7CEE3715B59D1F00D7D169 /* fireballGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F7CEE2E15B59D1F00D7D169 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F7CEE0615B59D1F00D7D169 /* fireballGame */;
+			targetProxy = 3F7CEE2D15B59D1F00D7D169 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F7CEE1415B59D1F00D7D169 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7CEE1515B59D1F00D7D169 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F7CEE1D15B59D1F00D7D169 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7CEE1E15B59D1F00D7D169 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		3F7CEE3215B59D1F00D7D169 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F7CEE3315B59D1F00D7D169 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F7CEE3815B59D1F00D7D169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F7CEE3915B59D1F00D7D169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Aaron BERNSTEIN (8645QV4W4Z)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F7CEE3B15B59D1F00D7D169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jake Bernstein";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jake Bernstein (925SUWHGHY)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fireballGame/fireballGame-Prefix.pch";
+				INFOPLIST_FILE = "fireballGame/fireballGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7012BAE7-A6D5-460F-8737-65D69F8E4818";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "61DFBE26-9C59-4E60-A665-4944CDE6B46C";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F7CEE3C15B59D1F00D7D169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jake Bernstein";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jake Bernstein (925SUWHGHY)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fireballGame/fireballGame-Prefix.pch";
+				INFOPLIST_FILE = "fireballGame/fireballGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7012BAE7-A6D5-460F-8737-65D69F8E4818";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "61DFBE26-9C59-4E60-A665-4944CDE6B46C";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3F7CEE3E15B59D1F00D7D169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fireballGame.app/fireballGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fireballGame/fireballGame-Prefix.pch";
+				INFOPLIST_FILE = "fireballGameTests/fireballGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3F7CEE3F15B59D1F00D7D169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fireballGame.app/fireballGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fireballGame/fireballGame-Prefix.pch";
+				INFOPLIST_FILE = "fireballGameTests/fireballGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		F55AE149163644230043D29A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Aaron BERNSTEIN";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		F55AE14A163644230043D29A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Jake Bernstein";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jake Bernstein (925SUWHGHY)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fireballGame/fireballGame-Prefix.pch";
+				INFOPLIST_FILE = "fireballGame/fireballGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7012BAE7-A6D5-460F-8737-65D69F8E4818";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "61DFBE26-9C59-4E60-A665-4944CDE6B46C";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		F55AE14B163644230043D29A /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fireballGame.app/fireballGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fireballGame/fireballGame-Prefix.pch";
+				INFOPLIST_FILE = "fireballGameTests/fireballGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F7CEE0115B59D1F00D7D169 /* Build configuration list for PBXProject "Inferno Pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7CEE3815B59D1F00D7D169 /* Debug */,
+				3F7CEE3915B59D1F00D7D169 /* Release */,
+				F55AE149163644230043D29A /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3F7CEE3A15B59D1F00D7D169 /* Build configuration list for PBXNativeTarget "fireballGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7CEE3B15B59D1F00D7D169 /* Debug */,
+				3F7CEE3C15B59D1F00D7D169 /* Release */,
+				F55AE14A163644230043D29A /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3F7CEE3D15B59D1F00D7D169 /* Build configuration list for PBXNativeTarget "fireballGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7CEE3E15B59D1F00D7D169 /* Debug */,
+				3F7CEE3F15B59D1F00D7D169 /* Release */,
+				F55AE14B163644230043D29A /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F7CEDFE15B59D1F00D7D169 /* Project object */;
+}
